@@ -183,6 +183,18 @@ body {
   padding-top: 75px;
 }
 
+.menu-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: #7792E0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  ;
+  z-index: 999;
+}
+
 .logo {
   display: block;
   transition: box-shadow 0.5s, opacity 0.5s;
