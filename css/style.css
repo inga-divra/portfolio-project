@@ -182,6 +182,7 @@ body {
 
 .menu-fixed {
   position: fixed;
+  /* justify-content: space-around; */
   top: 0;
   left: 0;
   width: 100%;
