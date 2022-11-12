@@ -6,9 +6,16 @@ $(function () {
     $('body,html').animate({ scrollTop: top }, 1500);
   });
 
-  $(".menu__btn, .menu a").on("click", function () {
+  $(".menu__btn").on("click", function () {
     $(".menu__list").toggleClass("active");
+    $(".body").toggleClass("lock");
     $(this).toggleClass("active");
+  });
+
+  $(".menu a").on("click", function () {
+    $(".menu__list").removeClass("active");
+    $(".body").removeClass("lock");
+    $(this).removeClass("active");
   });
 
 
@@ -21,9 +28,9 @@ const menu = document.querySelector('.menu');
 
 window.addEventListener('scroll', function () {
   if (window.pageYOffset > 80) {
-    menu.classList.add('menu-fixed')
+    menu.classList.add('fixed')
   }
   else {
-    menu.classList.remove('menu-fixed')
+    menu.classList.remove('fixed')
   }
 })
