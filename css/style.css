@@ -74,7 +74,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
-  line-height: 29px;
+  line-height: 1.6;
   color: #333333;
   background-color: #fff;
   overflow-x: hidden;
@@ -99,8 +99,8 @@ body {
   position: relative;
   font-weight: 700;
   font-size: 48px;
-  line-height: 62px;
-  margin-bottom: 60px;
+  line-height: 1.27;
+  margin-bottom: 58px;
 }
 
 .title::after {
@@ -116,7 +116,7 @@ body {
 
 .btn {
   font-weight: 600;
-  line-height: 23px;
+  line-height: 1.3;
   color: #fff;
   background-color: #2352de;
   padding: 12px 24px;
@@ -237,7 +237,7 @@ body {
 
 .menu__link {
   font-weight: 600;
-  line-height: 23px;
+  line-height: 1.3;
   border-bottom: 1px solid transparent;
   transition: box-shadow 0.5s, border-radius 0.5s, border-bottom 0.5s,
     opacity 0.6s;
@@ -267,7 +267,7 @@ body {
   max-width: 50%;
   font-weight: inherit;
   font-size: 48px;
-  line-height: 62px;
+  line-height: 1.3;
   margin: auto 0;
 }
 
@@ -275,7 +275,7 @@ body {
   display: block;
   font-weight: 700;
   font-size: 90px;
-  line-height: 117px;
+  line-height: 1.3;
 }
 
 .header__link {
@@ -283,10 +283,9 @@ body {
   bottom: 31px;
   left: 50%;
   transform: translateX(-50%);
-
   color: #ffffff;
   font-weight: 600;
-  line-height: 23px;
+  line-height: 1.3;
   padding-bottom: 32px;
   transition: box-shadow 0.5s, border-radius 0.5s, opacity 0.6s;
 }
@@ -350,7 +349,7 @@ body {
 
 .skills__text {
   font-weight: 600;
-  line-height: 18px;
+  line-height: 1;
   text-transform: uppercase;
   align-items: center;
 }
@@ -403,12 +402,13 @@ body {
 .services__subtitle {
   font-weight: 600;
   font-size: 28px;
+  line-height: 1.1;
   margin-bottom: 26px;
 }
 
 .services__text {
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
 }
 
 /* Portfolio section */
@@ -431,7 +431,7 @@ body {
 .portfolio__btn {
   font-weight: 600;
   font-size: 24px;
-  line-height: 38px;
+  line-height: 1.6;
   border-bottom: 1px solid transparent;
   transition: box-shadow 0.5s, border-radius 0.5s, border-bottom 0.3s,
     color 0.3s;
@@ -475,8 +475,8 @@ body {
 .reviews__blockquote {
   max-width: 400px;
   font-size: 24px;
+  line-height: 1.1;
   font-weight: 300;
-  line-height: 31px;
   font-style: italic;
 }
 
@@ -599,13 +599,14 @@ body {
 }
 
 .result__text {
-  line-height: 23px;
+  line-height: 1.3;
   margin-bottom: 20px;
 }
 
 .result__number {
   font-weight: 600;
   font-size: 44px;
+  line-height: 1.27;
 }
 
 /* Contact section */
@@ -624,11 +625,11 @@ body {
   width: 100%;
   margin-right: 100px;
   font-size: 16px;
+  line-height: 1.3;
 }
 
 .contact__text {
   font-style: normal;
-  line-height: 26px;
   margin-bottom: 30px;
 }
 
@@ -642,7 +643,7 @@ body {
 
 .contact__details {
   font-style: normal;
-  line-height: 21px;
+  line-height: 1.3;
   color: #2352de;
   border-bottom: 1px solid transparent;
   transition: box-shadow 0.5s, border-bottom 0.5s, border-radius 0.5s,
@@ -709,7 +710,7 @@ body {
   display: block;
   width: 47%;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1.3;
   font-weight: 600;
   margin-bottom: 30px;
 }
@@ -776,7 +777,7 @@ body {
 
   .header__subtitle {
     font-size: 80px;
-    line-height: 100px;
+    /*    line-height: 100px; */
   }
 
   .skills__img {
@@ -914,7 +915,7 @@ body {
   }
 
   .menu {
-    padding-top: 15px;
+    padding-top: 11px;
   }
 
   .menu__btn {
@@ -1000,7 +1001,7 @@ body {
   }
 
   .menu__list.active {
-    padding-top: 81px;
+    padding-top: 76px;
     transform: translateY(0);
   }
 
@@ -1008,7 +1009,7 @@ body {
     display: block;
     padding: 11px 0;
     font-size: 18px;
-    line-height: 23px;
+    /*     line-height: 23px; */
     transition: background-color 0.3s;
   }
 
@@ -1034,7 +1035,7 @@ body {
 
   .header__subtitle {
     font-size: 80px;
-    line-height: 90px;
+    /*     line-height: 90px; */
   }
 
   .about__text {
@@ -1133,7 +1134,7 @@ body {
 
   .header__link {
     font-size: 14px;
-    line-height: 19px;
+    /*     line-height: 19px; */
     bottom: 16px;
   }
 
@@ -1175,7 +1176,7 @@ body {
 
   .portfolio__btn {
     font-size: 22px;
-    line-height: 28px;
+    /*     line-height: 28px; */
     width: 100%;
     padding: 7px 0;
   }
@@ -1195,7 +1196,7 @@ body {
 
   .result__text {
     font-size: 14px;
-    line-height: 18px;
+    /*     line-height: 18px; */
     margin-bottom: 10px;
   }
 
@@ -1213,16 +1214,20 @@ body {
 
   .header__title {
     font-size: 28px;
-    line-height: 36px;
+    /*     line-height: 36px; */
   }
 
   .header__subtitle {
     font-size: 40px;
-    line-height: 52px;
+    /*     line-height: 52px; */
   }
 
   .title {
     font-size: 28px;
+  }
+
+  .about__text {
+    font-size: 16px;
   }
 
   .skills__bar {
@@ -1240,7 +1245,7 @@ body {
   .reviews__blockquote {
     max-width: 345px;
     font-size: 16px;
-    line-height: 21px;
+    /*     line-height: 21px; */
   }
 
 }
@@ -1248,7 +1253,7 @@ body {
 @media (max-width: 992px) and (orientation: landscape) {
   .header__title {
     font-size: 28px;
-    line-height: 35px;
+    /*     line-height: 35px; */
   }
 
   .header__subtitle {
