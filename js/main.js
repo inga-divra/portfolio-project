@@ -15,7 +15,7 @@ $(function () {
   $(".menu a").on("click", function () {
     $(".menu__list").removeClass("active");
     $(".body").removeClass("lock");
-    $(this).removeClass("active");
+    $(".menu__btn").removeClass("active");
   });
 
 

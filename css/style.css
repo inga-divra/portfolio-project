@@ -767,6 +767,10 @@ body {
     z-index: 5;
   }
 
+  .logo__img {
+    height: auto;
+  }
+
   .menu.fixed {
     left: 0;
   }
