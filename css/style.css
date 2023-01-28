@@ -290,9 +290,6 @@ body {
   background-image: url("../images/scroll.svg");
   width: 37px;
   height: 23px;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0;
 }
 
 .header__link:focus {
@@ -664,8 +661,8 @@ body {
 
 .contact__social-link {
   display: block;
-  width: 44px;
-  height: 44px;
+  width: 370px;
+  height: 294px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
