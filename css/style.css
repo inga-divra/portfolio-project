@@ -290,6 +290,8 @@ body {
   background-image: url("../images/scroll.svg");
   width: 37px;
   height: 23px;
+  left: 47px;
+  bottom: 2px;
 }
 
 .header__link:focus {
